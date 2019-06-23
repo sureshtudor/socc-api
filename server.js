@@ -16,31 +16,32 @@ app.use(cors(corsOptions))
 const bodyParser = require('body-parser')
 app.use(bodyParser.json())
 
+// import mock data
+const mock = require('./mock-data')
+
 // routes
-app.route('/api/cats').get((req, res) => {
-    res.send({
-        cats: [{ name: 'lilly' }, { name: 'lucy' }],
-    })
-})
+app.route('/api/applications').get((req, res) => {
+    console.log('request: '+ req.originalUrl);
+    res.send(mock.applications());
+});
 
-app.route('/api/cats/:name').get((req, res) => {
-    const requestedCatName = req.params['name']
-    res.send({ name: requestedCatName })
-})
+app.route('/api/applications/:id').get((req, res) => {
+    console.log('request: '+ req.originalUrl);
+    const filteredArray = mock.applications().filter(e => {
+        return e.id === Number(req.params['id']);
+    });
+    res.send(filteredArray);
+});
 
-app.route('/api/cats').post((req, res) => {
-    res.send(201, req.body)
-})
-
-app.route('/api/cats/:name').put((req, res) => {
-    res.send(200, req.body)
-})
-
-app.route('/api/cats/:name').delete((req, res) => {
-    res.sendStatus(204)
-})
+app.route('/api/app-search').get((req, res) => {
+    console.log('request: '+ req.originalUrl);
+    const filteredArray = mock.applications().filter(e => {
+        return e.invitationId === Number(req.query.invitationId);
+    });
+    res.send(filteredArray);
+});
 
 // start server
-app.listen(8000, () => {
+app.listen(3000, () => {
     console.log('Server started!')
 })
