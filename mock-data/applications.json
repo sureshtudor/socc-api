@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "invitationId": 12345678901,
+        "referenceId": "REF12345",
+        "loanNumber": 686543609,
+        "firstName": "Suresh",
+        "lastName": "Tudor",
+        "dob": "01/01/2001",
+        "street": "Some Street",
+        "city": "San Diego",
+        "state": "CA",
+        "zipcode": 92126,
+        "phone": "(858) 123 4567",
+        "date": "06/18/2019",
+        "appOrPrescreen": "Application",
+        "brand": "MUFG"
+    },
+    {
+        "id": 2,
+        "invitationId": 43215678901,
+        "referenceId": "REF54321",
+        "loanNumber": 7478973609,
+        "firstName": "Rahul",
+        "lastName": "Bedi",
+        "dob": "02/02/2002",
+        "street": "Some Street",
+        "city": "San Diego",
+        "state": "CA",
+        "zipcode": 92130,
+        "phone": "(858) 456 1234",
+        "date": "06/25/2019",
+        "appOrPrescreen": "Prescreen",
+        "brand": "MUFG"
+    }
+]

@@ -1,0 +1,498 @@
+{
+    "status": {
+        "code": 0,
+        "msg": "[000000] Success"
+    },
+    "sysprops": [],
+    "result": [
+        {
+            "count": 1,
+            "applications": [
+                {
+                    "id": 14150,
+                    "finInstKey": "default",
+                    "applicationId": "JLZBYHE9GFZRTA4LDMUB",
+                    "recordState": "Approved",
+                    "venue": {
+                        "promoCd": "59534597462",
+                        "channel": "Call Center",
+                        "currency": "USD"
+                    },
+                    "parties": [
+                        {
+                            "id": 14090,
+                            "applRel": "PRIMARY",
+                            "applId": "JLZBYHE9GFZRTA4LDMUB",
+                            "name": "RONALD",
+                            "legalName": "RONALD ROTUNNO",
+                            "credentials": [
+                                {
+                                    "id": 6903,
+                                    "type": "SclSctyNb",
+                                    "value": "666718266"
+                                }
+                            ],
+                            "verification": [],
+                            "vaddresses": [
+                                {
+                                    "id": 28096,
+                                    "type": "Email",
+                                    "name": "Email",
+                                    "value": "PRANAV.JAMADAGNI@UNIONBANK.COM"
+                                },
+                                {
+                                    "id": 28097,
+                                    "type": "Phone",
+                                    "name": "Mobile",
+                                    "value": "8581231345",
+                                    "preferred": true
+                                }
+                            ],
+                            "paddresses": [
+                                {
+                                    "id": 14111,
+                                    "type": "Primary",
+                                    "address": {
+                                        "roomFloorAddr": " ",
+                                        "streetAddr": "221 CEDAR ST",
+                                        "city": "GLASGOW",
+                                        "stateProvince": "KY",
+                                        "postalCode": "42141",
+                                        "countryCode": "US"
+                                    }
+                                }
+                            ],
+                            "relationships": [],
+                            "secrets": [],
+                            "registrations": [],
+                            "regulatoryFilings": [],
+                            "financials": [],
+                            "processStatuses": [],
+                            "isExistingPartyInd": false,
+                            "notes": [],
+                            "isSkipPartyInd": false,
+                            "services": [],
+                            "disclosures": [],
+                            "attributes": [
+                                {
+                                    "id": 180154,
+                                    "name": "IsApplicantApprovedNotFundedLastSixMths",
+                                    "value": "false",
+                                    "type": "PreQual",
+                                    "applicationId": "JLZBYHE9GFZRTA4LDMUB"
+                                },
+                                {
+                                    "id": 180166,
+                                    "name": "IsApplicantBankEmployee",
+                                    "value": "false",
+                                    "type": "Apply",
+                                    "applicationId": "JLZBYHE9GFZRTA4LDMUB"
+                                },
+                                {
+                                    "id": 180162,
+                                    "name": "IsApplicantDeclinedLastNinetyDays",
+                                    "value": "false",
+                                    "type": "PreQual",
+                                    "applicationId": "JLZBYHE9GFZRTA4LDMUB"
+                                },
+                                {
+                                    "id": 180153,
+                                    "name": "IsApplicantDeclinedLastSixMths",
+                                    "value": "false",
+                                    "type": "PreQual",
+                                    "applicationId": "JLZBYHE9GFZRTA4LDMUB"
+                                },
+                                {
+                                    "id": 180158,
+                                    "name": "IsApplicantExistingActiveLoan",
+                                    "value": "false",
+                                    "type": "PreQual",
+                                    "applicationId": "JLZBYHE9GFZRTA4LDMUB"
+                                },
+                                {
+                                    "id": 180159,
+                                    "name": "IsApplicantPaidoffLastOneYear",
+                                    "value": "false",
+                                    "type": "PreQual",
+                                    "applicationId": "JLZBYHE9GFZRTA4LDMUB"
+                                },
+                                {
+                                    "id": 180167,
+                                    "name": "IsApplicantRegO",
+                                    "value": "false",
+                                    "type": "Apply",
+                                    "applicationId": "JLZBYHE9GFZRTA4LDMUB"
+                                },
+                                {
+                                    "id": 180155,
+                                    "name": "IsDifferentApplicantSameAddress",
+                                    "value": "false",
+                                    "type": "PreQual",
+                                    "applicationId": "JLZBYHE9GFZRTA4LDMUB"
+                                },
+                                {
+                                    "id": 180156,
+                                    "name": "IsDifferentApplicantSameEmailLastSixMths",
+                                    "value": "true",
+                                    "type": "PreQual",
+                                    "applicationId": "JLZBYHE9GFZRTA4LDMUB"
+                                },
+                                {
+                                    "id": 180157,
+                                    "name": "IsDifferentApplicantSamePhoneLastSixMths",
+                                    "value": "true",
+                                    "type": "PreQual",
+                                    "applicationId": "JLZBYHE9GFZRTA4LDMUB"
+                                },
+                                {
+                                    "id": 180163,
+                                    "name": "IsExistingBankCustomer",
+                                    "value": "true",
+                                    "type": "PreQual",
+                                    "applicationId": "JLZBYHE9GFZRTA4LDMUB"
+                                },
+                                {
+                                    "id": 180160,
+                                    "name": "IsHHWithExistingLoan",
+                                    "value": "false",
+                                    "type": "PreQual",
+                                    "applicationId": "JLZBYHE9GFZRTA4LDMUB"
+                                },
+                                {
+                                    "id": 180151,
+                                    "name": "IsPrescreenAddressMismatchWithApplied",
+                                    "value": "false",
+                                    "type": "PreQual",
+                                    "applicationId": "JLZBYHE9GFZRTA4LDMUB"
+                                },
+                                {
+                                    "id": 180168,
+                                    "name": "IsReportSuspiciousActivity",
+                                    "value": "false",
+                                    "type": "FinalVerify",
+                                    "applicationId": "JLZBYHE9GFZRTA4LDMUB"
+                                },
+                                {
+                                    "id": 180152,
+                                    "name": "IsSameApplicantDifferentAddress",
+                                    "value": "false",
+                                    "type": "PreQual",
+                                    "applicationId": "JLZBYHE9GFZRTA4LDMUB"
+                                },
+                                {
+                                    "id": 180161,
+                                    "name": "IsTier1City",
+                                    "value": "true",
+                                    "type": "PreQual",
+                                    "applicationId": "JLZBYHE9GFZRTA4LDMUB"
+                                },
+                                {
+                                    "id": 180165,
+                                    "name": "customScoreTopFactorReasonCodes",
+                                    "value": "2|12|10|4",
+                                    "type": "PreQual",
+                                    "applicationId": "JLZBYHE9GFZRTA4LDMUB"
+                                },
+                                {
+                                    "id": 180164,
+                                    "name": "ficoScoreReasonCodes",
+                                    "value": "10|33|14|05|08",
+                                    "type": "PreQual",
+                                    "applicationId": "JLZBYHE9GFZRTA4LDMUB"
+                                }
+                            ],
+                            "bsaData": [],
+                            "score": "752",
+                            "attachments": [],
+                            "surName": "ROTUNNO",
+                            "givenNames": "RONALD",
+                            "middleName": "E",
+                            "birthDt": "1961-01-07",
+                            "homeOwnership": "Own Without Mortgage",
+                            "employments": [
+                                {
+                                    "id": 13231,
+                                    "type": "Employed",
+                                    "employer": "Sony",
+                                    "title": "Consultant",
+                                    "salaryFreqCd": "Monthly",
+                                    "incomeAmt": 10000,
+                                    "additionalIncomeFreqCd": "Monthly",
+                                    "additionalIncomeAmt": 1000,
+                                    "duration": 185
+                                }
+                            ],
+                            "brandName": "UB",
+                            "mthlyHousingExp": 500,
+                            "isCreditAuthorizationAccepted": true,
+                            "creditAuthorizationAcceptedDt": "2019-06-25T03:50:14Z",
+                            "hardPullAcknowledgedDt": "2019-06-25T03:53:20Z",
+                            "partyType": "Person"
+                        }
+                    ],
+                    "accounts": [
+                        {
+                            "id": 13813,
+                            "interestBearing": false,
+                            "relationships": [],
+                            "fundingSrcs": [],
+                            "services": [],
+                            "processStatuses": [],
+                            "notes": [],
+                            "isSkipAcctInd": false,
+                            "acctPurpose": "Debt Consolidation",
+                            "restrictions": [],
+                            "taxPlans": [],
+                            "addresses": [],
+                            "verification": [],
+                            "attributes": [],
+                            "disclosures": [],
+                            "applicationId": "JLZBYHE9GFZRTA4LDMUB"
+                        }
+                    ],
+                    "processStatuses": [
+                        {
+                            "id": 84216,
+                            "effDt": "2019-06-25",
+                            "name": "Final Verification",
+                            "applId": "JLZBYHE9GFZRTA4LDMUB",
+                            "type": "FinalVerification",
+                            "statusCd": "0",
+                            "statusDesc": "Approved",
+                            "creator": {
+                                "uid": "rd95626",
+                                "usrname": "Kartik Ketkar",
+                                "date": "2019-06-25T03:50:02Z"
+                            },
+                            "updator": {
+                                "uid": "rd95626",
+                                "usrname": "rd95626",
+                                "date": "2019-06-25T03:56:22Z",
+                                "applName": "SalesChannel",
+                                "duid": "10.171.246.246"
+                            }
+                        },
+                        {
+                            "id": 84214,
+                            "effDt": "2019-06-25",
+                            "name": "Hot File",
+                            "applId": "JLZBYHE9GFZRTA4LDMUB",
+                            "type": "HotFile",
+                            "statusCd": "0",
+                            "statusDesc": "No Hot File match found",
+                            "creator": {
+                                "uid": "rd95626",
+                                "usrname": "Kartik Ketkar",
+                                "date": "2019-06-25T03:50:02Z"
+                            },
+                            "updator": {
+                                "uid": "rd95626",
+                                "usrname": "rd95626",
+                                "date": "2019-06-25T03:53:31Z",
+                                "applName": "SalesChannel",
+                                "duid": "10.171.246.246"
+                            }
+                        },
+                        {
+                            "id": 84215,
+                            "effDt": "2019-06-25",
+                            "name": "Hard Pull",
+                            "applId": "JLZBYHE9GFZRTA4LDMUB",
+                            "type": "HardPull",
+                            "statusCd": "0",
+                            "statusDesc": "ApprovedPendingVerification",
+                            "creator": {
+                                "uid": "rd95626",
+                                "usrname": "Kartik Ketkar",
+                                "date": "2019-06-25T03:50:02Z"
+                            },
+                            "updator": {
+                                "uid": "rd95626",
+                                "usrname": "rd95626",
+                                "date": "2019-06-25T03:53:31Z",
+                                "applName": "SalesChannel",
+                                "duid": "10.171.246.246"
+                            },
+                            "noteTXT": "IDA OLN FCRA:SUCCESS|IDA Risk Score:SUCCESS|ThreatMetrix:SUCCESS|Experian PID 06:SUCCESS|Experian Hard Pull:SUCCESS|Equifax WorkNumber:SUCCESS"
+                        },
+                        {
+                            "id": 84213,
+                            "effDt": "2019-06-25",
+                            "name": "Soft Pull",
+                            "applId": "JLZBYHE9GFZRTA4LDMUB",
+                            "type": "SoftPull",
+                            "statusCd": "0",
+                            "statusDesc": "PreApproved",
+                            "memo": "2|12|10|4:10|33|14|05|08:752",
+                            "creator": {
+                                "uid": "rd95626",
+                                "usrname": "Kartik Ketkar",
+                                "date": "2019-06-25T03:50:02Z"
+                            },
+                            "updator": {
+                                "uid": "rd95626",
+                                "usrname": "rd95626",
+                                "date": "2019-06-25T03:50:25Z",
+                                "applName": "SalesChannel",
+                                "duid": "10.171.246.246"
+                            },
+                            "noteTXT": "Emailage:SUCCESS|IDA OLN GLBA:SUCCESS|Experian Soft Pull:SUCCESS"
+                        }
+                    ],
+                    "version": 41,
+                    "creator": {
+                        "uid": "rd95626",
+                        "usrname": "Kartik Ketkar",
+                        "date": "2019-06-25T03:50:02Z",
+                        "applName": "Call Center"
+                    },
+                    "updator": {
+                        "uid": "rd95626",
+                        "usrname": "Kartik Ketkar",
+                        "date": "2019-06-25T03:56:51Z",
+                        "applName": "SalesChannel",
+                        "duid": "10.171.246.246"
+                    },
+                    "notes": [],
+                    "disclosures": [
+                        {
+                            "id": 6141,
+                            "name": "LOAN_ACCEPTANCE",
+                            "type": "LoanOrigination",
+                            "docUrn": "some text TBD",
+                            "isSignatureRequired": false,
+                            "isSigned": false,
+                            "applId": "JLZBYHE9GFZRTA4LDMUB",
+                            "fields": []
+                        },
+                        {
+                            "id": 6142,
+                            "name": "ACH_PAYMENT_AUTHORIZATION",
+                            "type": "LoanOrigination",
+                            "docUrn": "some text TBD",
+                            "isSignatureRequired": false,
+                            "isSigned": false,
+                            "applId": "JLZBYHE9GFZRTA4LDMUB",
+                            "fields": []
+                        },
+                        {
+                            "id": 6143,
+                            "name": "LOAN_TERMS_AUTO_PAYMENTS",
+                            "type": "LoanOrigination",
+                            "docUrn": "some text TBD",
+                            "isSignatureRequired": false,
+                            "isSigned": false,
+                            "applId": "JLZBYHE9GFZRTA4LDMUB",
+                            "fields": []
+                        },
+                        {
+                            "id": 6144,
+                            "name": "RISK_BASED_PRICING",
+                            "type": "LoanOrigination",
+                            "docUrn": "some text TBD",
+                            "isSignatureRequired": false,
+                            "isSigned": false,
+                            "applId": "JLZBYHE9GFZRTA4LDMUB",
+                            "fields": []
+                        }
+                    ],
+                    "attachments": [
+                        {
+                            "id": 12240,
+                            "name": "Copy of latest utility bill or bank statement",
+                            "filename": "Chrysanthemum.jpg",
+                            "mimeType": "image/jpeg",
+                            "status": "Uploaded",
+                            "url": "{4D66DAC5-045C-4D14-AD5B-A39C7198F413}",
+                            "pages": [],
+                            "applId": "JLZBYHE9GFZRTA4LDMUB",
+                            "reason": "Latest Utility Bill OR Bank statement (issued within last 2 months)",
+                            "creator": {
+                                "uid": "rd95626",
+                                "usrname": "Kartik Ketkar",
+                                "date": "2019-06-25T03:53:56Z",
+                                "applName": "SalesChannel",
+                                "duid": "10.171.246.246"
+                            },
+                            "updator": {
+                                "uid": "rd95626",
+                                "usrname": "rd95626",
+                                "date": "2019-06-25T03:54:27Z",
+                                "applName": "SalesChannel",
+                                "duid": "10.171.246.246"
+                            }
+                        },
+                        {
+                            "id": 12241,
+                            "name": "Copy of unexpired Driver's License",
+                            "filename": "Chrysanthemum.jpg",
+                            "mimeType": "image/jpeg",
+                            "status": "Uploaded",
+                            "url": "{DD72109F-4424-4CC2-93E3-2F4E51E1852D}",
+                            "pages": [],
+                            "applId": "JLZBYHE9GFZRTA4LDMUB",
+                            "reason": "Current Driver's License (front & back), State issued ID (front & back) OR Passport (information page)",
+                            "creator": {
+                                "uid": "rd95626",
+                                "usrname": "Kartik Ketkar",
+                                "date": "2019-06-25T03:53:56Z",
+                                "applName": "SalesChannel",
+                                "duid": "10.171.246.246"
+                            },
+                            "updator": {
+                                "uid": "rd95626",
+                                "usrname": "rd95626",
+                                "date": "2019-06-25T03:54:53Z",
+                                "applName": "SalesChannel",
+                                "duid": "10.171.246.246"
+                            }
+                        },
+                        {
+                            "id": 12242,
+                            "name": "Copy of your latest 1040 form",
+                            "filename": "Chrysanthemum.jpg",
+                            "mimeType": "image/jpeg",
+                            "status": "Uploaded",
+                            "url": "{B3776A02-F174-40FA-8922-E70D6BFD6B3D}",
+                            "pages": [],
+                            "applId": "JLZBYHE9GFZRTA4LDMUB",
+                            "reason": "Form 1040 - current year, prior year if taxes not yet filed (page 1 & 2)",
+                            "creator": {
+                                "uid": "rd95626",
+                                "usrname": "Kartik Ketkar",
+                                "date": "2019-06-25T03:53:56Z",
+                                "applName": "SalesChannel",
+                                "duid": "10.171.246.246"
+                            },
+                            "updator": {
+                                "uid": "rd95626",
+                                "usrname": "rd95626",
+                                "date": "2019-06-25T03:55:19Z",
+                                "applName": "SalesChannel",
+                                "duid": "10.171.246.246"
+                            }
+                        }
+                    ],
+                    "applicationType": "LoanAcctApp",
+                    "referenceKey": "J9OEL67P67VZ",
+                    "statusChgDate": "2019-06-25",
+                    "lnPurpose": "Debt Consolidation",
+                    "desiredLnAmt": 15000,
+                    "desiredMnthlyPymt": 1000,
+                    "debtPayoffAmt": 9000,
+                    "refinanceAmt": 9000,
+                    "monthlyPymt": 471.42,
+                    "firstPymntDt": "2019-08-10",
+                    "loanDisbursements": [],
+                    "loanOffers": [],
+                    "loanOfferHistories": [],
+                    "creditorPayoffs": [],
+                    "marketingChannel": "TV",
+                    "approvedDt": "2019-06-25",
+                    "isHardLocked": false,
+                    "reloginAttempt": 0
+                }
+            ]
+        }
+    ]
+}
