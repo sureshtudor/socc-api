@@ -1,0 +1,430 @@
+request parameters:
+-------------------
+acctId: ""
+birthDt: ""
+email: ""
+firstName: ""
+lastName: ""
+phone: ""
+postalCode: ""
+promoCd: ""
+referenceKey: "NNAMFEA6PA59"
+
+https://ucli-ch-tst-web1.unionbank.com/cu-connect/Acct/Appl/Search?referenceKey=NNAMFEA6PA59
+
+API-Response:
+-------------
+{
+  "status": {
+    "code": 0,
+    "msg": "[000000] Success"
+  },
+  "sysprops": [],
+  "result": [
+    {
+      "count": 1,
+      "applications": [
+        {
+          "id": 14198,
+          "finInstKey": "default",
+          "applicationId": "L9CX9FKCKYRECY50LDYG",
+          "recordState": "ApprovedPendingVerification",
+          "venue": {
+            "promoCd": "82832322246",
+            "channel": "Call Center",
+            "currency": "USD"
+          },
+          "parties": [
+            {
+              "id": 14138,
+              "applRel": "PRIMARY",
+              "applId": "L9CX9FKCKYRECY50LDYG",
+              "name": "LISA",
+              "legalName": "LISA WILSON",
+              "credentials": [
+                {
+                  "id": 6942,
+                  "type": "SclSctyNb",
+                  "value": "666351867"
+                }
+              ],
+              "verification": [],
+              "vaddresses": [
+                {
+                  "id": 28192,
+                  "type": "Email",
+                  "name": "Email",
+                  "value": "PRANAV.JAMADAGNI@UNIONBANK.COM"
+                },
+                {
+                  "id": 28193,
+                  "type": "Phone",
+                  "name": "Mobile",
+                  "value": "8581231345",
+                  "preferred": true
+                }
+              ],
+              "paddresses": [
+                {
+                  "id": 14159,
+                  "type": "Primary",
+                  "address": {
+                    "roomFloorAddr": " ",
+                    "streetAddr": "8220 OLD GALLIA ST",
+                    "city": "WHEELERSBURG",
+                    "stateProvince": "OH",
+                    "postalCode": "45964",
+                    "countryCode": "US"
+                  }
+                }
+              ],
+              "relationships": [],
+              "secrets": [],
+              "registrations": [],
+              "regulatoryFilings": [],
+              "financials": [],
+              "processStatuses": [],
+              "isExistingPartyInd": false,
+              "notes": [],
+              "isSkipPartyInd": false,
+              "services": [],
+              "disclosures": [],
+              "attributes": [
+                {
+                  "id": 180928,
+                  "name": "IsApplicantApprovedNotFundedLastSixMths",
+                  "value": "false",
+                  "type": "PreQual",
+                  "applicationId": "L9CX9FKCKYRECY50LDYG"
+                },
+                {
+                  "id": 180940,
+                  "name": "IsApplicantBankEmployee",
+                  "value": "false",
+                  "type": "Apply",
+                  "applicationId": "L9CX9FKCKYRECY50LDYG"
+                },
+                {
+                  "id": 180936,
+                  "name": "IsApplicantDeclinedLastNinetyDays",
+                  "value": "false",
+                  "type": "PreQual",
+                  "applicationId": "L9CX9FKCKYRECY50LDYG"
+                },
+                {
+                  "id": 180927,
+                  "name": "IsApplicantDeclinedLastSixMths",
+                  "value": "false",
+                  "type": "PreQual",
+                  "applicationId": "L9CX9FKCKYRECY50LDYG"
+                },
+                {
+                  "id": 180932,
+                  "name": "IsApplicantExistingActiveLoan",
+                  "value": "false",
+                  "type": "PreQual",
+                  "applicationId": "L9CX9FKCKYRECY50LDYG"
+                },
+                {
+                  "id": 180933,
+                  "name": "IsApplicantPaidoffLastOneYear",
+                  "value": "false",
+                  "type": "PreQual",
+                  "applicationId": "L9CX9FKCKYRECY50LDYG"
+                },
+                {
+                  "id": 180941,
+                  "name": "IsApplicantRegO",
+                  "value": "false",
+                  "type": "Apply",
+                  "applicationId": "L9CX9FKCKYRECY50LDYG"
+                },
+                {
+                  "id": 180929,
+                  "name": "IsDifferentApplicantSameAddress",
+                  "value": "false",
+                  "type": "PreQual",
+                  "applicationId": "L9CX9FKCKYRECY50LDYG"
+                },
+                {
+                  "id": 180930,
+                  "name": "IsDifferentApplicantSameEmailLastSixMths",
+                  "value": "true",
+                  "type": "PreQual",
+                  "applicationId": "L9CX9FKCKYRECY50LDYG"
+                },
+                {
+                  "id": 180931,
+                  "name": "IsDifferentApplicantSamePhoneLastSixMths",
+                  "value": "true",
+                  "type": "PreQual",
+                  "applicationId": "L9CX9FKCKYRECY50LDYG"
+                },
+                {
+                  "id": 180937,
+                  "name": "IsExistingBankCustomer",
+                  "value": "false",
+                  "type": "PreQual",
+                  "applicationId": "L9CX9FKCKYRECY50LDYG"
+                },
+                {
+                  "id": 180934,
+                  "name": "IsHHWithExistingLoan",
+                  "value": "false",
+                  "type": "PreQual",
+                  "applicationId": "L9CX9FKCKYRECY50LDYG"
+                },
+                {
+                  "id": 180925,
+                  "name": "IsPrescreenAddressMismatchWithApplied",
+                  "value": "false",
+                  "type": "PreQual",
+                  "applicationId": "L9CX9FKCKYRECY50LDYG"
+                },
+                {
+                  "id": 180926,
+                  "name": "IsSameApplicantDifferentAddress",
+                  "value": "false",
+                  "type": "PreQual",
+                  "applicationId": "L9CX9FKCKYRECY50LDYG"
+                },
+                {
+                  "id": 180935,
+                  "name": "IsTier1City",
+                  "value": "true",
+                  "type": "PreQual",
+                  "applicationId": "L9CX9FKCKYRECY50LDYG"
+                },
+                {
+                  "id": 180939,
+                  "name": "customScoreTopFactorReasonCodes",
+                  "value": "2|18|10|7",
+                  "type": "PreQual",
+                  "applicationId": "L9CX9FKCKYRECY50LDYG"
+                },
+                {
+                  "id": 180938,
+                  "name": "ficoScoreReasonCodes",
+                  "value": "10|33|14|11",
+                  "type": "PreQual",
+                  "applicationId": "L9CX9FKCKYRECY50LDYG"
+                }
+              ],
+              "bsaData": [],
+              "score": "750",
+              "attachments": [],
+              "surName": "WILSON",
+              "givenNames": "LISA",
+              "birthDt": "1980-12-16",
+              "homeOwnership": "Own Without Mortgage",
+              "employments": [
+                {
+                  "id": 13279,
+                  "type": "Employed",
+                  "employer": "Sony",
+                  "title": "Consultant",
+                  "salaryFreqCd": "Monthly",
+                  "incomeAmt": 10000,
+                  "additionalIncomeFreqCd": "Monthly",
+                  "additionalIncomeAmt": 1000,
+                  "duration": 185
+                }
+              ],
+              "brandName": "UB",
+              "mthlyHousingExp": 500,
+              "isCreditAuthorizationAccepted": true,
+              "creditAuthorizationAcceptedDt": "2019-06-28T02:34:13Z",
+              "hardPullAcknowledgedDt": "2019-06-28T02:40:43Z",
+              "partyType": "Person"
+            }
+          ],
+          "accounts": [
+            {
+              "id": 13861,
+              "interestBearing": false,
+              "relationships": [],
+              "fundingSrcs": [],
+              "services": [],
+              "processStatuses": [],
+              "notes": [],
+              "isSkipAcctInd": false,
+              "acctPurpose": "Debt Consolidation",
+              "restrictions": [],
+              "taxPlans": [],
+              "addresses": [],
+              "verification": [],
+              "attributes": [],
+              "disclosures": [],
+              "applicationId": "L9CX9FKCKYRECY50LDYG"
+            }
+          ],
+          "processStatuses": [
+            {
+              "id": 84406,
+              "effDt": "2019-06-28",
+              "name": "Hot File",
+              "applId": "L9CX9FKCKYRECY50LDYG",
+              "type": "HotFile",
+              "statusCd": "0",
+              "statusDesc": "No Hot File match found",
+              "creator": {
+                "uid": "rd96573",
+                "usrname": "Pranav Jamadagni",
+                "date": "2019-06-28T02:33:58Z"
+              },
+              "updator": {
+                "uid": "rd96573",
+                "usrname": "rd96573",
+                "date": "2019-06-28T02:40:51Z",
+                "applName": "SalesChannel",
+                "duid": "10.171.245.98"
+              }
+            },
+            {
+              "id": 84407,
+              "effDt": "2019-06-28",
+              "name": "Hard Pull",
+              "applId": "L9CX9FKCKYRECY50LDYG",
+              "type": "HardPull",
+              "statusCd": "0",
+              "statusDesc": "ApprovedPendingVerification",
+              "creator": {
+                "uid": "rd96573",
+                "usrname": "Pranav Jamadagni",
+                "date": "2019-06-28T02:33:58Z"
+              },
+              "updator": {
+                "uid": "rd96573",
+                "usrname": "rd96573",
+                "date": "2019-06-28T02:40:51Z",
+                "applName": "SalesChannel",
+                "duid": "10.171.245.98"
+              },
+              "noteTXT": "IDA OLN FCRA:SUCCESS|IDA Risk Score:SUCCESS|ThreatMetrix:SUCCESS|Experian PID 06:SUCCESS|Experian Hard Pull:SUCCESS|Equifax WorkNumber:SUCCESS"
+            },
+            {
+              "id": 84405,
+              "effDt": "2019-06-28",
+              "name": "Soft Pull",
+              "applId": "L9CX9FKCKYRECY50LDYG",
+              "type": "SoftPull",
+              "statusCd": "0",
+              "statusDesc": "PreApproved",
+              "memo": "2|18|10|7:10|33|14|11:750",
+              "creator": {
+                "uid": "rd96573",
+                "usrname": "Pranav Jamadagni",
+                "date": "2019-06-28T02:33:58Z"
+              },
+              "updator": {
+                "uid": "rd96573",
+                "usrname": "rd96573",
+                "date": "2019-06-28T02:34:22Z",
+                "applName": "SalesChannel",
+                "duid": "10.171.245.98"
+              },
+              "noteTXT": "Emailage:SUCCESS|IDA OLN GLBA:SUCCESS|Experian Soft Pull:SUCCESS"
+            },
+            {
+              "id": 84408,
+              "effDt": "2019-06-28",
+              "name": "Final Verification",
+              "applId": "L9CX9FKCKYRECY50LDYG",
+              "type": "FinalVerification",
+              "statusCd": "5",
+              "statusDesc": "NotStarted",
+              "creator": {
+                "uid": "rd96573",
+                "usrname": "Pranav Jamadagni",
+                "date": "2019-06-28T02:33:58Z"
+              }
+            }
+          ],
+          "version": 14,
+          "creator": {
+            "uid": "rd96573",
+            "usrname": "Pranav Jamadagni",
+            "date": "2019-06-28T02:33:58Z",
+            "applName": "Call Center"
+          },
+          "updator": {
+            "uid": "rd96573",
+            "usrname": "Pranav Jamadagni",
+            "date": "2019-06-28T02:40:43Z",
+            "applName": "SalesChannel",
+            "duid": "10.171.245.98"
+          },
+          "notes": [],
+          "disclosures": [],
+          "attachments": [],
+          "applicationType": "LoanAcctApp",
+          "referenceKey": "NNAMFEA6PA59",
+          "statusChgDate": "2019-06-28",
+          "lnPurpose": "Debt Consolidation",
+          "desiredLnAmt": 3000,
+          "desiredMnthlyPymt": 700,
+          "debtPayoffAmt": 2000,
+          "refinanceAmt": 2000,
+          "loanDisbursements": [],
+          "loanOffers": [],
+          "loanOfferHistories": [],
+          "creditorPayoffs": [],
+          "marketingChannel": "TV",
+          "isHardLocked": false,
+          "reloginAttempt": 0
+        }
+      ]
+    }
+  ]
+}
+
+UI-response:
+------------
+{
+  "isSuccess": true,
+  "error": null,
+  "additionalErrors": null,
+  "uiMsg": null,
+  "responseData": [
+    {
+      "id": "L9CX9FKCKYRECY50LDYG",
+      "applicationRefId": "NNAMFEA6PA59",
+      "firstName": "LISA",
+      "middleInitial": null,
+      "lastName": "WILSON",
+      "address": "8220 OLD GALLIA ST",
+      "address2": null,
+      "city": "WHEELERSBURG",
+      "state": "OH",
+      "zip": "45964",
+      "email": "PRANAV.JAMADAGNI@UNIONBANK.COM",
+      "dob": "12/16/1980",
+      "appOrPrescreen": "App",
+      "invCode": "82832322246",
+      "loanNumber": null,
+      "phoneNumber": "8581231345",
+      "phoneType": "Mobile",
+      "altPhoneNumber": null,
+      "altPhoneType": null,
+      "applicationDate": "06/28/2019",
+      "brand": "UnionBank",
+      "isInCampaign": null,
+      "brandFormatted": "Union Bank",
+      "applicationStatus": "ApprovedPendingVerification",
+      "solicitationId": null,
+      "startDate": null,
+      "expiryDate": null,
+      "isPromoCdExpired": null,
+      "isEmployeeApp": false,
+      "numDaysQ": 1,
+      "channel": "Call Center",
+      "lastActionDate": "06/28/2019 - 02:40AM PDT",
+      "lastActionDateTS": "2019-06-28T02:40:43Z",
+      "lockedBy": null,
+      "isInReview": false,
+      "isInDisbursementFailed": false,
+      "phoneNumberFormatted": "(858)123-1345"
+    }
+  ],
+  "additionalResponseDataList": null
+}
